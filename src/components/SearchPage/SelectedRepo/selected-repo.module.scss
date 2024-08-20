@@ -1,0 +1,47 @@
+.container {
+  width: 33%;
+  min-width: 240px;
+  background-color: #f2f2f2;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20.02px;
+  letter-spacing: 0.17px;
+  color: black;
+}
+.repository_info {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  p {
+    line-height: 40px;
+    text-align: start;
+    margin: 0;
+    font-size: 32px;
+  }
+}
+.tag_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 8px 0 8px 0;
+}
+.main_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0 8px 0;
+}
+.star_container {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  span {
+    margin-left: 6px;
+  }
+}
+.licence {
+  padding: 16px 0 16px 0;
+  align-self: flex-start;
+}

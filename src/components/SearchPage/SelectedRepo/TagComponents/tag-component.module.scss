@@ -1,0 +1,17 @@
+.container {
+  padding: 3px 4px 3px 4px;
+  height: 24px;
+  border-radius: 100px;
+  background-color: #00000014;
+  color: #000000de;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    min-height: 18px;
+    padding: 0px 6px 0px 6px;
+  }
+}

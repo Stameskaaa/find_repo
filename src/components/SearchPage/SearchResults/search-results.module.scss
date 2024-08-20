@@ -1,0 +1,30 @@
+.search_results {
+  min-width: 980px;
+  box-sizing: border-box;
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 32px 0 32px;
+  p {
+    margin: 0;
+  }
+}
+
+.grid_container {
+  height: 100%;
+  width: 100%;
+  min-width: 912px;
+}
+.grid_container .custom_root {
+  border: none;
+  flex: 1;
+}
+
+.custom_header,
+.custom_cell {
+  background-color: transparent;
+}
+.footer_container {
+  border: none;
+}
